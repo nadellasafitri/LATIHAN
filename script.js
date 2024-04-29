@@ -12,6 +12,14 @@ function loadJSON() {
             // Parse data JSON
             var data = JSON.parse(xhr.responseText);
 
+            var infoDiv = document.getElementById("to");
+            infoDiv.innerHTML = `
+                <p><strong>To:</strong> ${data.to} </p>
+                <p><strong>From:</strong> ${data.from} </p>
+                <p><strong>Heading:</strong> ${data.heading} </p>
+                <p><strong>Body:</strong> ${data.body} </p>
+            `;
+
             // Tampilkan informasi nama toko, pengarang, dan alamat
             var infoDiv = document.getElementById("info");
             infoDiv.innerHTML = `
