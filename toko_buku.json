@@ -1,4 +1,8 @@
-{
+{   "to": "Tove",
+    "from":"Jani",
+    "heading":"reminder",
+    "body":"Don't forget me this weekend!",
+    
     "nama_toko": "Buku Bagus",
     "pengarang": "John Doe",
     "alamat": "Jl. Buku No. 123, Jakarta",
